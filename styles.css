@@ -45,6 +45,13 @@ header {
     line-height: 1.6;
 }
 
+.bold-paragraph {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
 button {
     text-transform: uppercase;
 }
@@ -79,7 +86,7 @@ button {
 }
 
 #memberships-button {
-    margin: 60px auto 60px 160px;
+    margin: 60px auto 260px 160px;
 }
 
 .join-now-button {
@@ -108,14 +115,14 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 60px;
+    margin: 60px 160px;
 }
 
 .zoom-image {
-    height: 500px;
-    margin: 0 10px;
-    border: solid 2px orange;
+    height: 450px;
+    margin: 0 5px;
     overflow: hidden;
+    /* border: solid 2px orange; */
 }
 
 .zoom-image img {
@@ -131,17 +138,85 @@ button {
 
 
 #red_phone_position img {
-    object-position: -470px 0px;
+    object-position: -430px 0px;
 }
 
 #pink_rope_position img {
-    object-position: -440px 0px;
+    object-position: -400px 0px;
 }
 
 #yellow_rope_position img {
-    object-position: -480px 0px;
+    object-position: -430px 0px;
 }
 /*END OF HORIZONTAL IMAGES SECTION*/
 
+/*START OF START RUNNING SECTION*/
+
+#start-running {
+    margin: 120px 160px 0 120px;
+}
+
+#start-running-image-text {
+    display: flex;
+    align-items: center;
+    /* border: solid 2px blue; */
+}
+
+#start-running-image img {
+    width: 180px;
+    height: 200px;
+    object-fit: cover;
+    object-position: right;
+    margin-right: 30px;
+    /* border: solid 2px red; */
+}
+
+#start-running-title {
+    font-size: 48px;
+}
+
+#start-running-text-boxes {
+    display: flex;
+}
+
+#start-running-paragraph {
+    width: 100%;
+    height: auto;
+}
+
+#start-running-grey-box {
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+#start-running-paragraph {
+    font-size: 24px;
+    font-weight:400;
+    line-height: 2.2;
+    padding: 40px 40px 40px 0px;
+}
+
+#start-running-bold-paragraph {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+#orange-bullet {
+    color: #f1a40e;
+}
+
+/*END OF START RUNNING SECTION*/
 
 /*END OF CONTENT*/

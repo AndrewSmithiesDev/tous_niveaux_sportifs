@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0 auto;
     padding: 0;
     height: 100%;
@@ -85,6 +86,7 @@ button {
     height: auto;
     border: solid 0.1px #478ac9;
 }
+
 /* START OF MEMBERSHIP SECTION*/
 
 #memberships-title {
@@ -144,7 +146,7 @@ button {
 }
 
 .zoom-image img {
-    width:  100%;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
@@ -166,6 +168,7 @@ button {
 #yellow_rope_position img {
     object-position: -430px 0px;
 }
+
 /*END OF HORIZONTAL IMAGES SECTION*/
 
 /*START OF START RUNNING SECTION*/
@@ -211,7 +214,7 @@ button {
 
 #start-running-paragraph {
     font-size: 24px;
-    font-weight:400;
+    font-weight: 400;
     line-height: 2.2;
     padding: 40px 40px 40px 0px;
 }
@@ -252,6 +255,7 @@ li {
     margin: 120px 240px 90px 160px;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .feature-box {
@@ -287,7 +291,8 @@ li {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    ;
 }
 
 .button-more {
@@ -317,7 +322,6 @@ li {
     align-content: center;
 }
 
-/*START OF CLUBS & EVENTS SECTION*/
 #clubs-events-text {
     margin: 0px 160px;
 }
@@ -329,8 +333,209 @@ li {
 }
 
 #clubs-title {
-    text-transform:capitalize;
+    text-transform: capitalize;
     color: white;
     margin-bottom: 20px;
 }
+
+/*END OF CLUBS & EVENTS SECTION*/
+
+/*START OF CLASSES SECTION*/
+
+#classes {
+    margin: 80px 160px;
+    height: 60%;
+    display: flex;
+}
+
+#classes-image {
+    width: 50%;
+    height: 100%;
+}
+
+#classes-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -180px 0px;
+}
+
+#classes-text {
+    width: 50%;
+    margin-left: 30px;
+    display: inline-block;
+    align-content: center;
+}
+
+.classes-paragraph {
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#classes-button {
+    margin-bottom: 40px;
+}
+
+/*END OF CLASSES SECTION*/
+
+/*START OF STRETCH IMAGE SECTION*/
+
+#stretch-image {
+    background-image: url(images/blue_stretch.jpg);
+    background-size: 100%;
+    object-fit: fill;
+    height: 60%;
+    width: auto;
+    background-position: 0px -200px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-items: flex-end;
+    padding: 80px 160px;
+}
+
+.stretch-image-text {
+    width: 45%;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+
+.stretch-image-text img {
+    width: 64px;
+    height: auto;
+}
+
+/*END OF STRETCH IMAGE SECTION*/
+
+/*START OF MEMBERSHIPS 2 SECTION*/
+
+#memberships2 {
+    margin: 80px 160px;
+    height: 60%;
+    display: flex;
+}
+
+#memberships2-image {
+    width: 50%;
+    height: 100%;
+}
+
+#memberships2-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+}
+
+#memberships2-text {
+    width: 50%;
+    display: inline-block;
+    align-content: center;
+    padding: 50px 20px;
+}
+
+.memberships2-paragraph {
+    color: #999999;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#memberships2-button {
+    margin-bottom: 40px;
+}
+
+#price2 {
+    color: #ee57dc
+}
+
+/*END OF MEMBERSHIPS 2 SECTION*/
+
+/*START OF BENEFITS SECTION*/
+
+#benefits {
+    width: 100%;
+    height: 50%;
+    background-image: url(images/pink_weights.jpg);
+    background-size: 100%;
+    background-position: 0px -100px;
+    display: inline-block;
+    align-content: center;
+}
+
+#benefits-title {
+    color: white;
+    margin: 30px 160px;
+}
+
+#benefits-button {
+    margin: 0px 160px;
+}
+
+/*END OF BENEFITS SECTION*/
+
+/*START OF JOIN NOW SECTION*/
+
+#join-now {
+    width: 100%;
+    height: 75%;
+    background-image: url(images/close-up-woman-training.jpg);
+    display: inline-block;
+    align-content: center;
+}
+
+#join-form {
+    width: 40%;
+    margin-left: 160px;
+}
+
+#join-us-title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#join-us-paragraph {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.join-now-email {
+    margin-bottom: 30px;
+    width: 450px;
+    padding: 15px 10px;
+    border-radius: 50px;
+    border-color: #b3b3b3;
+    border-width: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.submit-button {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ee57dc;
+    color: white;
+    border: none;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    width: 470px;
+    border-radius: 50px;
+}
+
+.submit-button:hover {
+    background-color: #f8b9f1;
+    color: #ee57dc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/*END OF JOIN NOW SECTION*/
+
+
 /*END OF CONTENT*/

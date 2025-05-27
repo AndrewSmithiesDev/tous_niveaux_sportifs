@@ -1,0 +1,239 @@
+/*START OF ABOUT US SECTION*/
+#about-us {
+    background-color: #f1a40e;
+    padding: 80px 160px;
+}
+
+#about-large-title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#about-paragraph {
+    color:white;
+    margin-bottom: 30px;
+    width: 50%;
+    min-width: 200px;;
+}
+
+.view-more-button {
+    background-color: #ee57dc;
+    color: white;
+    padding: 15px 30px;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+}
+
+.view-more-button:hover {
+    background-color: #eb39d6;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#mission {
+    height: 70%;
+    background-image: url(images/man_pressup.jpg);
+    background-size: cover;
+    background-position: 0px -150px;
+    position: relative;
+}
+
+#grey-section {
+    height: 30%;
+    background-color: #f2f2f2;
+}
+
+#mission-boxes {
+    margin: 0px 160px;
+    display: flex;
+    position: absolute;
+    top: 400px;
+}
+
+.mission-boxes-indiv {
+    width: 100%;
+    padding: 70px 30px 30px;
+    min-width: 250px;
+}
+
+#mission-box {
+    background-color: #f1a40e;
+}
+
+#mission-title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.mission-box-text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+#mission-button {
+    background-color: white;
+    color: black;
+}
+
+#mission-button:hover {
+    background-color: #e6e6e6;
+}
+
+
+#training-box {
+    background-color: #ee57dc;
+    margin: 0px 30px;
+}
+
+#training-title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#training-button {
+    background-color: #f1a40e;
+    color: white;
+}
+
+#training-button:hover {
+    background-color: #d9940d;
+}
+
+#member-box {
+    background-color: white;
+}
+
+#member-title {
+    color: black;
+    margin-bottom: 30px;
+}
+
+#member-text {
+    color: black;
+}
+
+#member-button {
+    background-color: #ee57dc;
+    color: white;
+}
+
+#member-button:hover {
+    background-color: #eb39d6;
+}
+
+/*END OF ABOUT US SECTION*/
+
+
+/*START OF JUST TRAIN SECTIONS*/
+
+#just-train {
+    display: flex;
+    background-color: #f2f2f2;
+    height: 80%;
+    width: 100%;
+}
+
+#just-train-text {
+    width: 55%;
+    margin: 40px 30px 0px 160px;
+    padding: 30px 3px;
+}
+
+#just-train-paragraph {
+    margin-bottom: 30px;
+}
+
+#just-train-title {
+    margin-bottom: 20px;
+}
+
+#just-train-image {
+    margin: 40px 160px 0px 0px;
+    width: 45%;
+
+}
+
+#just-train-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0px 0px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.just-train-card {
+    background-color: white;
+    justify-items: center;
+    padding: 30px 20px;
+}
+
+.just-train-card-pink {
+    background-color: #ee57dc;
+    border-radius: 50px;
+    width: 66px;
+    height: 66px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.just-train-card img {
+    width: 40px;
+    height: 40px;
+}
+
+.just-train-card-text {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*END OF JUST TRAIN SECTION*/
+
+/*START OF GET ACTIVE SECTION*/
+
+#get-active {
+    display: flex;
+    margin: 80px 160px;
+}
+
+#get-active-image-grid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+#get-active-text {
+    width: 50%;
+    padding: 20px
+}
+
+#get-active-title {
+    margin-bottom: 50px;
+}
+
+#get-active-small-title {
+    margin-bottom: 30px;
+}
+#get-active-paragraph {
+    margin-bottom: 30px;
+    color: #999999;
+}
+
+#get-active-image-grid img {
+    object-fit: cover;
+    height: 100%;
+}
